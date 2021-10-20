@@ -1,1 +1,3 @@
 puts gets.split(" ").map(&:to_i).sort.join(" ")
+
+puts gets.split.sort*' '
